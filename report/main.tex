@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[english]{babel} %Castellanización
+\usepackage[T1]{fontenc} %escribe lo del teclado
+\usepackage[utf8]{inputenc} %Reconoce algunos símbolos
+\usepackage{lmodern} %optimiza algunas fuentes
+\usepackage{graphicx}
+%\graphicspath{ {images/} }
+%\usepackage{apacite} 
+\usepackage{mathtools}
+\DeclarePairedDelimiter\bra{\langle}{\rvert}
+\DeclarePairedDelimiter\ket{\lvert}{\rangle}
+\DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1 \delimsize\vert #2}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{lmodern} %optimiza algunas fuentes
+\usepackage{titling} % Enables \subtitle command
+\usepackage{subfig}
+%\usepackage{hyperref}
+\usepackage[natbibapa]{apacite} % Load apacite with natbib compatibility
+\bibliographystyle{apacite}     % APA citation style
+\usepackage{float}
+\usepackage{parskip}           % Adds spacing between paragraphs
+\usepackage{indentfirst} 
+\setlength{\parindent}{1cm}  % Custom indent size (default: 15pt)
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+
+\usepackage{hyperref} % Uso de links
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{subfig}
+
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+%\color{blue}
+
+\title{Introduction to High Temperature Materials}
+\author{Problem Set 4\\
+Cap Morales, Shannon Nazareth\\
+N25MA13}
+
+\maketitle
+
+
+\input{p1}
+\input{p2}
+\input{p3}
+\input{p4}
+\input{Appendix}
+%\input{p4}
+%\nocite{*}
+\clearpage
+\bibliography{references}
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% -------------------------------------------------------------- 
+\end{document}

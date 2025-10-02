@@ -1,0 +1,59 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Andersson%
+, Helander%
+, H{\"o}glund%
+, Shi%
+\BCBL {}\ \BBA {} Sundman%
+}{%
+Andersson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+thermocalc}
+\APACinsertmetastar {%
+thermocalc}%
+\begin{APACrefauthors}%
+Andersson, J\BPBI O.%
+, Helander, T.%
+, H{\"o}glund, L.%
+, Shi, P\BPBI F.%
+\BCBL {}\ \BBA {} Sundman, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Thermo-Calc} and {DICTRA}, Computational tools for materials science} {{Thermo-Calc} and {DICTRA}, computational tools for materials science}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Calphad}{26}{2}{273--312}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0364-5916(02)00037-8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cap~Morales%
+}{%
+Cap~Morales%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+mygit}
+\APACinsertmetastar {%
+mygit}%
+\begin{APACrefauthors}%
+Cap~Morales, S\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {GitHub Repository: High temperature materials.} {Github repository: High temperature materials.}
+\newblock
+\APAChowpublished {\url{https://github.com/ShannonNCM/High_temp_materials/blob/main/codes.ipynb}}.
+\newblock
+\APACrefnote{Source code for data processing and visualization}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
