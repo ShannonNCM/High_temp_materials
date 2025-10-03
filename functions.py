@@ -13,7 +13,7 @@ from openpyxl import load_workbook
 #################################################################################333
 
 #problem 4 functions
-#setting the names to rename the columns to make it easier to use
+#dictionary to rename the columns so that it is easier to use
 names = {
     'Mole percent of Ni in FCC_A1': 'Ni_gamma',
     'Mole percent of Al in FCC_A1': 'Al_gamma',
@@ -62,10 +62,41 @@ def save_latex(df):
 
 
 #functions for problem 5
+
+#dictionary with the fraction names
 frac_names = {
     'Mole percent Ni':'x_Ni',
-    'Mole percent ':'x_',
-    'Mole percent ':'x_',
-    'Mole percent ':'x_',
-    'Mole percent ':'x_',
+    'Mole percent Al':'x_Al',
+    'Mole percent Ta':'x_Ta',
+    'Mole percent Cr':'x_Cr',
+    'Mole percent W':'x_W',
+    'Mole percent Re':'x_Re',
+    'Mole percent Co':'x_Co',
+    'Mole fraction of FCC_A1':'x_gamma',
+    'Mole fraction of GAMMA_PRIME':'x_gammaprime',
 }
+
+#dictionary with the mass of the elements in the alloys
+molar_masses = {
+    "Ni": 58.693,
+    "Al": 26.982,
+    "Ta": 180.947,
+    "Cr": 51.996,
+    "Co": 58.933,
+    "Mo": 95.95,
+    "W": 183.84,
+    "Re": 186.21
+}
+
+#function to calculate the density
+def density(row, mol_mass):
+    molar_mass_sum = sum(row.get(f'x_{el}',0)*M
+               for el, M in mol_mass.items())
+    
+    N_A = 6.022e23
+    phase_fractions = (row.get('x_gamma',0)*((row.get('a_gamma',0))**3))+(row.get('x_gammaprime',0)*((row.get('a_gammaprime',0))**3))
+    mass_unit_cell = (molar_mass_sum/N_A)*4
+    volumen_cell = phase_fractions * 1e-24
+
+    dens = mass_unit_cell/volumen_cell
+    return dens
