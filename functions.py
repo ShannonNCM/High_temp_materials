@@ -6,6 +6,12 @@ from openpyxl import load_workbook
 #functions used to perform calculations
 
 
+
+
+#################################################################################333
+# PROBLEM SET 4
+#################################################################################333
+
 #problem 4 functions
 #setting the names to rename the columns to make it easier to use
 names = {
@@ -53,3 +59,13 @@ def calculations(dataframe):
 def save_latex(df):
     df = df.round(4).to_latex(index=False, float_format="%.4f")
     return df
+
+
+#functions for problem 5
+frac_names = {
+    'Mole percent Ni':'x_Ni',
+    'Mole percent ':'x_',
+    'Mole percent ':'x_',
+    'Mole percent ':'x_',
+    'Mole percent ':'x_',
+}
