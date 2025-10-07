@@ -5,6 +5,7 @@
 
 Lattice parameters:
 \begin{align}
+  \label{eq:01}
     \begin{split}
         a_\gamma &= 3.523 + 0.179 Al + 0.700Ta + 0.110 Cr + 0.444W+ 0.441 Re \\
         & + 0.478Mo + 0.096 Co \\
@@ -14,8 +15,11 @@ Lattice parameters:
 
 Lattice misfit equation
 \begin{align}
+  \label{eq:02}
     \delta &= 2\times\left[\dfrac{a_{\gamma'}-a_\gamma}{a_{\gamma'}+a_\gamma}\right]
 \end{align}
+
+Using the \textit{One axis} tool in \textit{ThermoCalc} the composition of the different phases of the alloy were calculated. Using these values and equation \ref{eq:01}, the lattice parameter of the $\gamma$ and $\gamma'$ phases were calculated. Then, the lattice misfit, $\delta$, was calculated using \ref{eq:02}. The results obtained are presented in \ref{tab:tab03}:
 
 \begin{table}[h]
     \centering
@@ -32,7 +36,7 @@ From table \ref{tab:tab03} it can be seen that the values of $\delta$ are not eq
 \newpage
 \subsection{With additions of Cr, W, Re, Mo or mixture, find alloy for which the lattice misfit is close to zero}
 
-The values of the lattice misfit for both $\gamma$ and $\gamma'$ phases were calculated using the molar fractions of the $\gamma$ and $\gamma'$ phases of different alloys of Ni-Al-Ta-X, where X is Cr, Mo, Re and W, obtained from a \textit{ThermoCalc} calculations. The results obtained are presented in tables \ref{tab:tab04}, ,\ref{tab:tab05}, \ref{tab:tab06} and \ref{tab:tab07} in the Appendix \ref{appendix}.
+The values of the lattice misfit for both $\gamma$ and $\gamma'$ phases were calculated using the molar fractions of the $\gamma$ and $\gamma'$ phases of different alloys of Ni-Al-Ta-X, where X is Cr, Mo, Re and W, obtained from a \textit{ThermoCalc} calculations and equations \ref{eq:01} and \ref{eq:02}. The results obtained are presented in tables \ref{tab:tab04}, ,\ref{tab:tab05}, \ref{tab:tab06} and \ref{tab:tab07} in the Appendix \ref{appendix}.
 
 From the values of lattice misfit obtained for each alloy, the minimum value was extracted in order to know which composition gives a lattice misfit closer to zero, the results are presented in table \ref{tab:tab08}:
 
@@ -66,7 +70,7 @@ From the values presented in table \ref{tab:tab08}, the minimum value of all the
 \newpage
 \subsection{Do Cr, W, Re and Mo alter significantly the fraction of $\gamma'$ present?}
 
-Figure \ref{fig:diagram04} shows the graphs of the amount of all phases as a function of the mole percent of Cr, Mo, Re and W. The red line is the $\gamma'$ composition and as it can be seen in all four plots the behavior of the $\gamma'$ phase line is different with each system. From these plots it can be said that the presence of Cr, W, Re and Mo do have an effect ont he fraction of $\gamma'$ present.
+Figure \ref{fig:diagram04} shows the graphs of the amount of all phases as a function of the mole percent of Cr, Mo, Re and W, obtained usinig \textit{ThermoCalc}. The red line is the $\gamma'$ composition and as it can be seen in all four plots the behavior of the $\gamma'$ phase line is different with each system. From these plots it can be said that the presence of Cr, W, Re and Mo do have an effect ont he fraction of $\gamma'$ present.
 
 
 \begin{figure}[H]
@@ -78,4 +82,3 @@ Figure \ref{fig:diagram04} shows the graphs of the amount of all phases as a fun
   \caption{Amount of phase as function of mole percent of a) Cr, b) Mo, c) Re and d) W generated with \textit{ThermoCalc} \citep{thermocalc}.}
   \label{fig:diagram04}
 \end{figure}
-
