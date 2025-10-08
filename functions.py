@@ -56,10 +56,13 @@ def calculations(dataframe):
     return dataframe
 
 #this is to save the result in latex format so that I can use it in my report
-def save_latex(df):
-    df = df.round(4).to_latex(index=False, float_format="%.4f")
-    return df
+'''def save_latex(df,round, num):
+    df = df.round(round).to_latex(index=False, float_format="%.{num}f")
+    return df'''
 
+def save_latex(df, decimals):
+    fmt = f"%.{decimals}f"
+    return df.round(decimals).to_latex(index=False, float_format=lambda x: fmt % x)
 
 #functions for problem 5
 
@@ -100,3 +103,27 @@ def density(row, mol_mass):
 
     dens = mass_unit_cell/volumen_cell
     return dens
+
+
+#functions to calculate the price of the alloy
+#dictionary of the prices in dollar per kg
+prices = {
+    'Al' : 2.866,
+    'Cr' : 12.3459,
+    'Co' : 26.4555,
+    'Ni' : 16.9756,
+    'Re' : 1370.00,
+    'Ra' : 170.00,
+    'W' : 31.5259
+}
+
+#function to convert mole fraction to weight fraction
+def w_fraction(row, molar_mass):
+    x_molar = xM = {el: row.get(f"x_{el}", 0) * M for el, M in molar_masses.items()}
+    total = sum(xM.values())
+    return {el: val/total for el, val in xM.items()}
+
+def cost(row, molar_masses, prices):
+    w_frac = w_fraction(row, molar_masses)
+    cost = sum(w_frac[el] * prices.get(el, 0) for el in w_frac)
+    return cost

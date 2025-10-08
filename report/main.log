@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  6 OCT 2025 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  8 OCT 2025 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -427,6 +427,24 @@ Package subcaption Info: The counter `subfigure' was already defined by
 (subcaption)             \newsubfloat (offered by the subfig package) on input line 238.
 Package subcaption Info: The counter `subtable' was already defined by
 (subcaption)             \newsubfloat (offered by the subfig package) on input line 238.
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip77
+\LTright=\skip78
+\LTpre=\skip79
+\LTpost=\skip80
+\LTchunksize=\count325
+\LTcapwidth=\dimen190
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count326
+\LT@rows=\count327
+\c@LT@tables=\count328
+\c@LT@chunks=\count329
+\LT@p@ftn=\toks34
 ) (c:/texlive/2025/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
 Package: todonotes 2024/01/05
@@ -435,17 +453,17 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ) (c:/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks34
-\XKV@tempa@toks=\toks35
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count325
+\XKV@depth=\count330
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks36
-\pgfutil@tempdima=\dimen190
-\pgfutil@tempdimb=\dimen191
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen191
+\pgfutil@tempdimb=\dimen192
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box58
+\pgfutil@abb=\box63
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -453,31 +471,31 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks40
 ))
-\pgf@x=\dimen192
-\pgf@y=\dimen193
-\pgf@xa=\dimen194
-\pgf@ya=\dimen195
-\pgf@xb=\dimen196
-\pgf@yb=\dimen197
-\pgf@xc=\dimen198
-\pgf@yc=\dimen199
-\pgf@xd=\dimen256
-\pgf@yd=\dimen257
+\pgf@x=\dimen193
+\pgf@y=\dimen194
+\pgf@xa=\dimen195
+\pgf@ya=\dimen196
+\pgf@xb=\dimen197
+\pgf@yb=\dimen198
+\pgf@xc=\dimen199
+\pgf@yc=\dimen256
+\pgf@xd=\dimen257
+\pgf@yd=\dimen258
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count326
-\c@pgf@countb=\count327
-\c@pgf@countc=\count328
-\c@pgf@countd=\count329
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count330
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count335
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -488,59 +506,59 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count331
-\pgfsyssoftpath@bigbuffer@items=\count332
+\pgfsyssoftpath@smallbuffer@items=\count336
+\pgfsyssoftpath@bigbuffer@items=\count337
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen258
-\pgfmath@count=\count333
-\pgfmath@box=\box59
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count338
+\pgfmath@box=\box64
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count334
+\c@pgfmathroundto@lastzeros=\count339
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen259
-\pgf@picmaxx=\dimen260
-\pgf@picminy=\dimen261
-\pgf@picmaxy=\dimen262
-\pgf@pathminx=\dimen263
-\pgf@pathmaxx=\dimen264
-\pgf@pathminy=\dimen265
-\pgf@pathmaxy=\dimen266
-\pgf@xx=\dimen267
-\pgf@xy=\dimen268
-\pgf@yx=\dimen269
-\pgf@yy=\dimen270
-\pgf@zx=\dimen271
-\pgf@zy=\dimen272
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen273
-\pgf@path@lasty=\dimen274
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen275
-\pgf@shorten@start@additional=\dimen276
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box60
-\pgf@hbox=\box61
-\pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count335
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count340
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen277
+\pgflinewidth=\dimen278
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen278
-\pgf@pt@y=\dimen279
-\pgf@pt@temp=\dimen280
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -549,17 +567,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen281
+\pgfarrowsep=\dimen282
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen282
-\pgf@sys@shading@range@num=\count336
-\pgf@shadingcount=\count337
+\pgf@max=\dimen283
+\pgf@sys@shading@range@num=\count341
+\pgf@shadingcount=\count342
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box63
+\pgfexternal@startupbox=\box68
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -570,85 +588,85 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box64
+\pgfnodeparttextbox=\box69
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen283
-\pgf@nodesepend=\dimen284
+\pgf@nodesepstart=\dimen284
+\pgf@nodesepend=\dimen285
 ) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen285
-\pgffor@skip=\dimen286
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@iter=\dimen286
+\pgffor@skip=\dimen287
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count338
-\pgfplotmarksize=\dimen287
+\pgf@plot@mark@count=\count343
+\pgfplotmarksize=\dimen288
 )
-\tikz@lastx=\dimen288
-\tikz@lasty=\dimen289
-\tikz@lastxsaved=\dimen290
-\tikz@lastysaved=\dimen291
-\tikz@lastmovetox=\dimen292
-\tikz@lastmovetoy=\dimen293
-\tikzleveldistance=\dimen294
-\tikzsiblingdistance=\dimen295
-\tikz@figbox=\box65
-\tikz@figbox@bg=\box66
-\tikz@tempbox=\box67
-\tikz@tempbox@bg=\box68
-\tikztreelevel=\count339
-\tikznumberofchildren=\count340
-\tikznumberofcurrentchild=\count341
-\tikz@fig@count=\count342
+\tikz@lastx=\dimen289
+\tikz@lasty=\dimen290
+\tikz@lastxsaved=\dimen291
+\tikz@lastysaved=\dimen292
+\tikz@lastmovetox=\dimen293
+\tikz@lastmovetoy=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count344
+\tikznumberofchildren=\count345
+\tikznumberofcurrentchild=\count346
+\tikz@fig@count=\count347
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count343
-\pgfmatrixcurrentcolumn=\count344
-\pgf@matrix@numberofcolumns=\count345
+\pgfmatrixcurrentrow=\count348
+\pgfmatrixcurrentcolumn=\count349
+\pgf@matrix@numberofcolumns=\count350
 )
-\tikz@expandcount=\count346
+\tikz@expandcount=\count351
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@@todonotes@numberoftodonotes=\count347
+\c@@todonotes@numberoftodonotes=\count352
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 65.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 66.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count348
+\l__color_backend_stack_int=\count353
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -686,17 +704,17 @@ LaTeX Font Info:    ... okay on input line 65.
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count349
-\scratchdimen=\dimen296
-\scratchbox=\box69
-\nofMPsegments=\count350
-\nofMParguments=\count351
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count352
-\MPscratchDim=\dimen297
-\MPnumerator=\count353
-\makeMPintoPDFobject=\count354
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count354
+\scratchdimen=\dimen297
+\scratchbox=\box74
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen298
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks50
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -707,65 +725,69 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-\c@maskedRefs=\count355
+\c@maskedRefs=\count360
  (c:/texlive/2025/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 66.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 65.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 66.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 78.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 79.
 (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 78.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 79.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 78.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 79.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 78.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 79.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 78.
+(Font)              <14.4> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 78.
+(Font)              <10> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 78.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+(Font)              <7> on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 78.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 79.
  (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) (./p1.tex
-<graficas/diagrama_base.jpg, id=71, 1220.05812pt x 1092.58188pt>
+<graficas/diagrama_base.jpg, id=79, 1220.05812pt x 1092.58188pt>
 File: graficas/diagrama_base.jpg Graphic file (type jpg)
 <use graficas/diagrama_base.jpg>
 Package pdftex.def Info: graficas/diagrama_base.jpg  used on input line 10.
 (pdftex.def)             Requested size: 399.29463pt x 357.56895pt.
-<graficas/Q1_NI_Al_binarydiagram.pdf, id=72, 743.77875pt x 638.385pt>
+<graficas/Q1_NI_Al_binarydiagram.pdf, id=80, 743.77875pt x 638.385pt>
 File: graficas/Q1_NI_Al_binarydiagram.pdf Graphic file (type pdf)
 <use graficas/Q1_NI_Al_binarydiagram.pdf>
-Package pdftex.def Info: graficas/Q1_NI_Al_binarydiagram.pdf  used on input line 20.
+Package pdftex.def Info: graficas/Q1_NI_Al_binarydiagram.pdf  used on input line 21.
 (pdftex.def)             Requested size: 422.77664pt x 362.8799pt.
 
 
@@ -780,46 +802,46 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [2 <./graficas/Q1_NI_Al_binarydiagram.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 27.
+(hyperref)                removing `\gamma' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 27.
+(hyperref)                removing `superscript' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\circ' on input line 27.
+(hyperref)                removing `\circ' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 30.
 ) (./p2.tex
 
 [3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
@@ -831,48 +853,48 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8.
 (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<graficas/Q2_NiAlTa_ternary_800C.pdf, id=122, 550.055pt x 541.02126pt>
+<graficas/Q2_NiAlTa_ternary_800C.pdf, id=130, 794.97pt x 666.49pt>
 File: graficas/Q2_NiAlTa_ternary_800C.pdf Graphic file (type pdf)
 <use graficas/Q2_NiAlTa_ternary_800C.pdf>
 Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_800C.pdf  used on input line 14.
-(pdftex.def)             Requested size: 234.8775pt x 231.01656pt.
-<graficas/Q2_NiAlTa_ternary_900C.pdf, id=123, 550.055pt x 541.02126pt>
+(pdftex.def)             Requested size: 234.8775pt x 196.91794pt.
+<graficas/Q2_NiAlTa_ternary_900C.pdf, id=131, 794.97pt x 666.49pt>
 File: graficas/Q2_NiAlTa_ternary_900C.pdf Graphic file (type pdf)
 <use graficas/Q2_NiAlTa_ternary_900C.pdf>
 Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_900C.pdf  used on input line 17.
-(pdftex.def)             Requested size: 234.8775pt x 231.01656pt.
+(pdftex.def)             Requested size: 234.8775pt x 196.91794pt.
 
-Overfull \hbox (15.66643pt too wide) in paragraph at lines 14--18
+Overfull \hbox (15.66643pt too wide) in paragraph at lines 14--19
  [][][][] 
  []
 
-<graficas/Q2_NiAlTa_ternary_1000C.pdf, id=132, 550.055pt x 541.02126pt>
+<graficas/Q2_NiAlTa_ternary_1000C.pdf, id=140, 794.97pt x 666.49pt>
 File: graficas/Q2_NiAlTa_ternary_1000C.pdf Graphic file (type pdf)
 <use graficas/Q2_NiAlTa_ternary_1000C.pdf>
-Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1000C.pdf  used on input line 31.
-(pdftex.def)             Requested size: 234.8775pt x 231.01656pt.
-<graficas/Q2_NiAlTa_ternary_1100C.pdf, id=133, 550.055pt x 541.02126pt>
+Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1000C.pdf  used on input line 30.
+(pdftex.def)             Requested size: 234.8775pt x 196.91794pt.
+<graficas/Q2_NiAlTa_ternary_1100C.pdf, id=141, 794.97pt x 666.49pt>
 File: graficas/Q2_NiAlTa_ternary_1100C.pdf Graphic file (type pdf)
 <use graficas/Q2_NiAlTa_ternary_1100C.pdf>
-Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1100C.pdf  used on input line 34.
-(pdftex.def)             Requested size: 234.8775pt x 231.01656pt.
+Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1100C.pdf  used on input line 33.
+(pdftex.def)             Requested size: 234.8775pt x 196.91794pt.
 
-Overfull \hbox (15.66643pt too wide) in paragraph at lines 31--34
+Overfull \hbox (15.66643pt too wide) in paragraph at lines 30--33
  [][][][] 
  []
 
-<graficas/Q2_NiAlTa_ternary_1200C.pdf, id=134, 550.055pt x 541.02126pt>
+<graficas/Q2_NiAlTa_ternary_1200C.pdf, id=142, 794.97pt x 666.49pt>
 File: graficas/Q2_NiAlTa_ternary_1200C.pdf Graphic file (type pdf)
 <use graficas/Q2_NiAlTa_ternary_1200C.pdf>
-Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1200C.pdf  used on input line 37.
-(pdftex.def)             Requested size: 234.8775pt x 231.01656pt.
-<graficas/Q2_NiAlTa_ternary_1300C.pdf, id=135, 550.055pt x 541.02126pt>
+Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1200C.pdf  used on input line 36.
+(pdftex.def)             Requested size: 234.8775pt x 196.91794pt.
+<graficas/Q2_NiAlTa_ternary_1300C.pdf, id=143, 794.97pt x 666.49pt>
 File: graficas/Q2_NiAlTa_ternary_1300C.pdf Graphic file (type pdf)
 <use graficas/Q2_NiAlTa_ternary_1300C.pdf>
-Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1300C.pdf  used on input line 40.
-(pdftex.def)             Requested size: 234.8775pt x 231.01656pt.
+Package pdftex.def Info: graficas/Q2_NiAlTa_ternary_1300C.pdf  used on input line 39.
+(pdftex.def)             Requested size: 234.8775pt x 196.91794pt.
 
-Overfull \hbox (15.66643pt too wide) in paragraph at lines 37--41
+Overfull \hbox (15.66643pt too wide) in paragraph at lines 36--40
  [][][][] 
  []
 
@@ -893,7 +915,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 47.
 
-<graficas/Q2_NiAlTa_ternary03.png, id=180, 1278.27562pt x 998.22937pt>
+<graficas/Q2_NiAlTa_ternary03.png, id=188, 1278.27562pt x 998.22937pt>
 File: graficas/Q2_NiAlTa_ternary03.png Graphic file (type png)
 <use graficas/Q2_NiAlTa_ternary03.png>
 Package pdftex.def Info: graficas/Q2_NiAlTa_ternary03.png  used on input line 74.
@@ -929,173 +951,162 @@ LaTeX Warning: Command \textasciiacute invalid in math mode on input line 30.
 [8
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-Overfull \hbox (21.27322pt too wide) in paragraph at lines 45--55
- [][] 
- []
-
-
-Overfull \hbox (21.27322pt too wide) in paragraph at lines 62--66
-[][] 
- []
-
-
 
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 72.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 71.
+(hyperref)                removing `\gamma' on input line 72.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 72.
 
-<graficas/Q3_Cr.pdf, id=252, 794.97pt x 669.50125pt>
+<graficas/Q3_Cr.pdf, id=260, 794.97pt x 669.50125pt>
 File: graficas/Q3_Cr.pdf Graphic file (type pdf)
 <use graficas/Q3_Cr.pdf>
-Package pdftex.def Info: graficas/Q3_Cr.pdf  used on input line 78.
+Package pdftex.def Info: graficas/Q3_Cr.pdf  used on input line 79.
 (pdftex.def)             Requested size: 234.8775pt x 197.80763pt.
-<graficas/Q3_Mo.pdf, id=253, 794.97pt x 669.50125pt>
+<graficas/Q3_Mo.pdf, id=261, 794.97pt x 669.50125pt>
 File: graficas/Q3_Mo.pdf Graphic file (type pdf)
 <use graficas/Q3_Mo.pdf>
-Package pdftex.def Info: graficas/Q3_Mo.pdf  used on input line 79.
+Package pdftex.def Info: graficas/Q3_Mo.pdf  used on input line 80.
 (pdftex.def)             Requested size: 234.8775pt x 197.80763pt.
-<graficas/Q3_Re.pdf, id=254, 794.97pt x 669.50125pt>
+<graficas/Q3_Re.pdf, id=262, 794.97pt x 669.50125pt>
 File: graficas/Q3_Re.pdf Graphic file (type pdf)
 <use graficas/Q3_Re.pdf>
-Package pdftex.def Info: graficas/Q3_Re.pdf  used on input line 80.
+Package pdftex.def Info: graficas/Q3_Re.pdf  used on input line 81.
 (pdftex.def)             Requested size: 234.8775pt x 197.80763pt.
-<graficas/Q3_W.pdf, id=255, 794.97pt x 669.50125pt>
+<graficas/Q3_W.pdf, id=263, 794.97pt x 669.50125pt>
 File: graficas/Q3_W.pdf Graphic file (type pdf)
 <use graficas/Q3_W.pdf>
-Package pdftex.def Info: graficas/Q3_W.pdf  used on input line 81.
+Package pdftex.def Info: graficas/Q3_W.pdf  used on input line 82.
 (pdftex.def)             Requested size: 234.8775pt x 197.80763pt.
 ) (./p4.tex
 
 [10 <./graficas/Q3_Cr.pdf> <./graficas/Q3_Mo.pdf> <./graficas/Q3_Re.pdf> <./graficas/Q3_W.pdf>]
-<graficas/Q4_02_1.png, id=282, 1078.0275pt x 895.84688pt>
+<graficas/Q4_02_1.png, id=289, 1078.0275pt x 895.84688pt>
 File: graficas/Q4_02_1.png Graphic file (type png)
 <use graficas/Q4_02_1.png>
-Package pdftex.def Info: graficas/Q4_02_1.png  used on input line 25.
+Package pdftex.def Info: graficas/Q4_02_1.png  used on input line 19.
 (pdftex.def)             Requested size: 446.26582pt x 370.85367pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[11 <./graficas/Q4_02_1.png>]) (./p5.tex
 
-) (./p5.tex
-
-[11]
-
-[12 <./graficas/Q4_02_1.png>]) (./appendix.tex
-Overfull \hbox (21.27322pt too wide) in paragraph at lines 7--11
- [][] 
- []
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 11.
-
-
+[12]) (./appendix.tex
 
 [13
 
 ]
-Overfull \hbox (21.27322pt too wide) in paragraph at lines 18--22
- [][] 
- []
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 15.
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 22.
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 15.
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 22.
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 15.
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 22.
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 15.
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 22.
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 26.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 26.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 26.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 26.
 
 
 
 [14]
-Overfull \hbox (21.27322pt too wide) in paragraph at lines 29--33
- [][] 
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 37.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 37.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 37.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 37.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 48.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 48.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 48.
+
+
+LaTeX Warning: Command \textasciiacute invalid in math mode on input line 48.
+
+
+
+[15]
+Overfull \hbox (1.28732pt too wide) in alignment at lines 54--56
+ [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 33.
-
-
-Overfull \hbox (21.27322pt too wide) in paragraph at lines 40--44
- [][] 
+Overfull \hbox (1.28732pt too wide) in alignment at lines 56--62
+ [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 44.
+Overfull \hbox (1.28732pt too wide) in alignment at lines 62--67
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 44.
+Overfull \hbox (1.28732pt too wide) in alignment at lines 67--70
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
 
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 44.
+Overfull \hbox (1.28732pt too wide) in alignment at lines 70--75
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 44.
-
-
-
-[15])
-
-[16] (./main.bbl
+[16] [17]) (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 54.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-[17
-
-] (./main.aux)
+[18] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4203690F368BF6FB5FA57207737A9C05;4450.
+(rerunfilecheck)             Checksum: BAD6284460B2A70FAD5BA1E167BBBF48;4550.
  ) 
 Here is how much of TeX's memory you used:
- 26209 strings out of 469590
- 479311 string characters out of 5474519
- 891706 words of memory out of 5000000
- 52500 multiletter control sequences out of 15000+600000
+ 26386 strings out of 469590
+ 482207 string characters out of 5474519
+ 925287 words of memory out of 5000000
+ 52664 multiletter control sequences out of 15000+600000
  690415 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,101p,3364b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,101p,6189b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (17 pages, 1606844 bytes).
+Output written on main.pdf (18 pages, 1754636 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 371 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
