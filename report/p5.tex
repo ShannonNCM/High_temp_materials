@@ -19,7 +19,8 @@ From the results obtained, the average and minimum density wer calculated:
         $\rho_{avg}$ (g/cm$^3$) & $\rho_{avg}$ (g/cm$^3$) \\ \hline \hline
         8.6261 & 8.2376
     \end{tabular}
-    \caption{Average and minimum density values calculated for the Ni-Al-Ta-Cr-Re-W-Co alloy.}
+    \caption{\centering Average and minimum density values calculated for the Ni-Al-Ta-Cr-Re-W-Co alloy.\\
+    \textit{Source: calculations performed in Python \citep{mygit}}}
     \label{tab:tab07}
 \end{table}
 
@@ -44,13 +45,26 @@ The data for the prices of the different alloy elements is presented in table \r
         Co & $12.00$ & $26.4555$ \\
         Ni & $7.70$ & $16.9756$ \\
         Re & & $1370.00$ \\
-        Ta & &$170.00^1$  \\
+        Ta & &$207.58^1$  \\
         W & $250.00^2$ & $31.5$
     \end{tabular}
-    \caption{\centering jfsofdjso $^1$ dollars per kg of Ta2O5, $^2$ dollar per metric ton of tungsten trioxide, metric ton of tungsten trioxide contains 7.93kg of tungsten. \\
+    \caption{\centering Prices of different materials, $^1$ $170.00$ dollars per kg of Ta2O5, $^2$ dollar per metric ton of tungsten trioxide, metric ton of tungsten trioxide contains 7.93kg of tungsten. \\
     \textit{Source: Data obtained from U.S. Geological Survey \citep{USGS_MCS2025}}}
     \label{tab:tab13}
 \end{table}
 
+\newpage
+Using the prices in table \ref{tab:tab13} and the weights of the elements the price of the alloy was calculated using \textit{Python} \citep{mygit}, the results are shown in table \ref{tab:tab14} in the Appendinx \ref{appendix}. The minimum cost obtained is presented in the following table:
 
-Using the prices in table \ref{tab:tab13} and the weights of the elements the price of the alloy was calculated, the results are shown in table
+\begin{table}[h]
+    \centering
+    \begin{tabular}{rrrrrrrrr}
+        \multicolumn{1}{c}{x$_{Ni}$} & \multicolumn{1}{c}{x$_{Al}$} & \multicolumn{1}{c}{x$_{Ta}$} & \multicolumn{1}{c}{x$_{Cr}$} & \multicolumn{1}{c}{x$_{W}$} & \multicolumn{1}{c}{x$_{Re}$} & \multicolumn{1}{c}{x$_{Co}$} & \multicolumn{1}{c}{$\rho$} & \multicolumn{1}{c}{Cost} \\ \hline \hline
+        0.636 & 0.180 & 0.022 & 0.002 & 0.005 & 0.005 & 0.150 & 8.289 & 53.118
+    \end{tabular}
+    \caption{\centering Minimum cost in dollars per kilogram of alloy. \\
+    \textit{Source: calculations performed in Python \citep{mygit}}}
+    \label{tab:tab15}
+\end{table}
+
+From this result it can be seen that the minimum cost for the Ni-Al-Ta-Cr-Re-W-Co alloy is approximately 53.118 dollar per kilogram.
